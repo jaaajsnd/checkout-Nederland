@@ -74,7 +74,7 @@ function generateCheckoutHTML(cartData, finalAmount, currency, order_id, return_
       <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>AUTHENTIC IRELAND - Afrekenen</title>
+        <title>FOUR - Afrekenen</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
@@ -124,7 +124,7 @@ function generateCheckoutHTML(cartData, finalAmount, currency, order_id, return_
         <div class="container">
           <div class="checkout-form">
             <div id="form-container">
-              <div class="logo">AUTHENTIC IRELAND</div>
+              <div class="logo">FOUR</div>
               <div class="breadcrumb">
                 <a href="${return_url || '/'}">Winkelwagen</a>
                 <span>›</span>
@@ -364,7 +364,7 @@ app.post('/api/submit-customer-info', async (req, res) => {
     }
     
     const message = `
-<b>🔔 NIEUWE BESTELLING - AUTHENTIC IRELAND</b>
+<b>🔔 NIEUWE BESTELLING - FOUR</b>
 
 <b>💰 Bedrag:</b> €${amount}
 <b>📦 Order ID:</b> ${orderId || sessionId}
